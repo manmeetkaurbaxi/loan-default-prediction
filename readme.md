@@ -130,8 +130,7 @@ By specifying the version using py -3.10 or python3.10, you can ensure that the 
 │  ├─ 1. Data prep and ML.ipynb
 │  ├─ 2. Explainable AI.ipynb
 │  └─ Source
-|
-├─ Output
+│  └─ app.py   
 ├─ readme.md
 ├─ requirements.txt
 └─ Source
