@@ -25,7 +25,7 @@ def main():
                    page_icon = '💸',
                    layout = 'wide')
     st.title("Loan Default Prediction")
-    st.markdown('##### Made with 🍵 by Manmeet Kaur Baxi | [Portfolio](https://manmeetkaurbaxi.com)')
+    st.markdown('##### Made by Manmeet Kaur Baxi | [Portfolio](https://manmeetkaurbaxi.com)')
     
     # Data Loading Section with Progress Bar
     if 'data' not in st.session_state:
