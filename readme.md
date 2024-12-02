@@ -23,7 +23,7 @@ Throughout the analysis and model-building process, multiple assumptions were ma
 1. For **missing values** in the columns: Social profiles, Is verified, Married, Industry, Work Experience, Amount, Employment Type, Tier of employment, each was handled appropriately.
    - A new category for NA values was created for the column's 'Social Profile', 'Is verified', 'Employment Type' and 'Married'.
    - Missing values in the columns 'Industry' and 'Work Experience' were dropped.
-   - Assume that null values in the 'Amount' column are replaced with "-1000" to differentiate them, and a new column "amount_missing" is created to flag missing values (1 if null, 0 otherwise).
+   - Null values in the 'Amount' column are replaced with "-1000" to differentiate them, and a new column, "amount_missing", is created to flag missing values (1 if null, 0 otherwise).
    - Null values in the 'Tier of Employment' column are replaced with the string "Z" to categorize them separately.
 2. Categorical columns with many categories, such as 'Industry,' 'Role,' and 'User ID,' are dropped to prevent excessive model dimensionality.
 3. Considering privacy concerns, the 'Pincode' column is dropped from the dataset. It can be though converted into latitude and longitude values to enhance the analysis geospatially.
