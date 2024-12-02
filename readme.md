@@ -26,6 +26,6 @@ Throughout the analysis and model-building process, multiple assumptions were ma
    - Assume that null values in the 'Amount' column are replaced with "-1000" to differentiate them, and a new column "amount_missing" is created to flag missing values (1 if null, 0 otherwise).
    - Null values in the 'Tier of Employment' column are replaced with the string "Z" to categorize them separately.
 2. Categorical columns with many categories, such as 'Industry,' 'Role,' and 'User ID,' are dropped to prevent excessive model dimensionality.
-3. Considering privacy concerns, the 'Pincode' column is dropped from the dataset. It can be though converted into latitude and longitude values to enhance the analysis potentially.
+3. Considering privacy concerns, the 'Pincode' column is dropped from the dataset. It can be though converted into latitude and longitude values to enhance the analysis geospatially.
 4. Multiple variables, including 'Amount,' 'Payment,' 'Received Principal,' and 'Interest Received,' exhibit right-skewed distributions, while variables like 'Employment Type' and 'Work Experience' show imbalances. Z-score is applied to handle data skewness.
 5. Oversampling (SMOTE) is applied to the minority class (defaulters) by duplicating or generating synthetic examples to balance the dataset.
