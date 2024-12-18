@@ -36,7 +36,7 @@ The project successfully identified strategies to minimize financial risks while
   ![principal_vs_interest](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_interest.jpg)
 
 ## Global and Local Model Interpretability
-- SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" and "Interest Rate."
+- SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" , "Work Experience" , and "Interest Rate."
 - Local explanations enabled data scientists to illustrate feature impacts for individual predictions, enhancing trust and collaboration among stakeholders and regulators.
 
   ![shap_values](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/shap_values.png)
@@ -48,9 +48,9 @@ The project successfully identified strategies to minimize financial risks while
 # Recommendations
 1. Enhance Model Performance: Focus on reducing false negatives through fine-tuning, feature optimization, and incorporating additional data sources to improve recall and precision for non-defaulters.
 2. Address Bias and Fairness: Regularly audit the model using tools like DeepChecks to ensure compliance with anti-discrimination laws and fair lending practices.
-3. Improve Interpretability: Leverage SHAP values to continuously monitor and explain feature importance, ensuring clarity for both technical and non-technical stakeholders.
+3. Improve Interpretability: Leverage SHAP values to monitor and explain feature importance continuously, ensuring clarity for technical and non-technical stakeholders.
 4. Adopt Explainability Techniques:
-   - Use Anchors to provide straightforward, rule-based explanations for decisions, helping stakeholders understand the rationale behind approvals and denials.
+   - Use Anchors to provide straightforward, rule-based decision-making explanations, helping stakeholders understand the rationale behind approvals and denials.
    - Apply Counterfactuals to demonstrate the model’s fairness and robustness, addressing regulatory concerns and building confidence in the decision-making process.
      
 By implementing these recommendations, financial institutions can ensure a robust, transparent, and fair loan decision-making framework that aligns with business goals and regulatory standards.
