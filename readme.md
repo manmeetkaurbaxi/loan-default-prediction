@@ -30,10 +30,10 @@ The project successfully identified strategies to minimize financial risks while
 ![confusion matrix](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/confusion%20matrix.jpg)
 
 ## Bias and Fairness
-DeepChecks analysis revealed no evidence of bias based on attributes like age or gender within the false positive segment. Weak segments contributing to misclassifications were linked to features such as "Received Principal vs Amount", "Received Principal vs Interest Rate".
-
-![principal vs amount](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_amount.jpg)
-![principal_vs_interest](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_interest.jpg)
+- DeepChecks analysis revealed no evidence of bias based on attributes like age or gender within the false positive segment.
+- Weak segments contributing to misclassifications were linked to features such as "Received Principal vs Amount", "Received Principal vs Interest Rate"
+  ![principal vs amount](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_amount.jpg)
+  ![principal_vs_interest](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_interest.jpg)
 
 ## Global and Local Model Interpretability
 - SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" and "Credit Score."
