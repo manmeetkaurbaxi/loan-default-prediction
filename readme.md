@@ -36,8 +36,10 @@ The project successfully identified strategies to minimize financial risks while
   ![principal_vs_interest](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_interest.jpg)
 
 ## Global and Local Model Interpretability
-- SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" and "Credit Score."
+- SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" and "Interest Rate."
 - Local explanations enabled data scientists to illustrate feature impacts for individual predictions, enhancing trust and collaboration among stakeholders and regulators.
+
+  ![shap_values](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/shap_values.png)
 
 ## Explainability Methods
 - Anchors provided rule-based insights into decisions, such as identifying critical thresholds for approval or denial.
