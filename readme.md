@@ -26,9 +26,14 @@ The project successfully identified strategies to minimize financial risks while
 - _Assumptions for cost analysis:_
   - **Cost of False Positives:** $10,000 (Let's assume that the average amount of loan given to the customer is more than $10,000 and a lending institution will lose $10,000 on average if someone doesn’t default. This is the cost associated with incorrectly classifying a loan as default).
   - **Cost of False Negatives:** $50,000 (Let's assume that the average amount of loan given to the customer is more than $50,000, and a lending institution will lose $50,000 on average if someone defaults. This is the cost associated with incorrectly classifying a loan as non-default).
+    
+    ![confusion matrix](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/confusion%20matrix.jpg)
 
 ## Bias and Fairness
-DeepChecks analysis revealed no evidence of bias based on attributes like age or gender within the false positive segment. Weak segments contributing to misclassifications were linked to features such as "Received Principal vs Work Experience."
+- DeepChecks analysis revealed no evidence of bias based on attributes like age or gender within the false positive segment.
+- Weak segments contributing to misclassifications were linked to features such as "Received Principal vs Amount", "Received Principal vs Interest Rate"
+  ![principal vs amount](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_amount.jpg)
+  ![principal_vs_interest](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/principal_vs_interest.jpg)
 
 ## Global and Local Model Interpretability
 - SHAP analysis highlighted key factors influencing loan default predictions, such as "Received Principal" and "Credit Score."
