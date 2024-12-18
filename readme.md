@@ -26,6 +26,7 @@ The project successfully identified strategies to minimize financial risks while
 - _Assumptions for cost analysis:_
   - **Cost of False Positives:** $10,000 (Let's assume that the average amount of loan given to the customer is more than $10,000 and a lending institution will lose $10,000 on average if someone doesn’t default. This is the cost associated with incorrectly classifying a loan as default).
   - **Cost of False Negatives:** $50,000 (Let's assume that the average amount of loan given to the customer is more than $50,000, and a lending institution will lose $50,000 on average if someone defaults. This is the cost associated with incorrectly classifying a loan as non-default).
+    
     ![confusion matrix](https://github.com/manmeetkaurbaxi/loan-default-prediction/blob/main/Images/confusion%20matrix.jpg)
 
 ## Bias and Fairness
